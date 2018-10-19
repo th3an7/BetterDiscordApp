@@ -1,1 +1,1 @@
-module.exports = require('./lib/BetterDiscord');
+module.exports = require('./lib/betterdiscord');
