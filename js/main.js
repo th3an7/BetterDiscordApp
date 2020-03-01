@@ -760,31 +760,31 @@ EmoteModule.prototype.init = async function () {
             url: `https://rauenzi.github.io/BetterDiscordApp/data/emotedata_twitch_global.json`,
             variable: "TwitchGlobal",
             oldVariable: "emotesTwitch",
-            getEmoteURL: (e) => `https://static-cdn.jtvnw.net/emoticons/v1/${e}/1.0`
+            getEmoteURL: (e) => `https://static-cdn.jtvnw.net/emoticons/v1/${e}/4.0`
         },
         TwitchSubscriber: {
             url: `https://rauenzi.github.io/BetterDiscordApp/data/emotedata_twitch_subscriber.json`,
             variable: "TwitchSubscriber",
             oldVariable: "subEmotesTwitch",
-            getEmoteURL: (e) => `https://static-cdn.jtvnw.net/emoticons/v1/${e}/1.0`
+            getEmoteURL: (e) => `https://static-cdn.jtvnw.net/emoticons/v1/${e}/4.0`
         },
         FrankerFaceZ: {
             url: `https://rauenzi.github.io/BetterDiscordApp/data/emotedata_ffz.json`,
             variable: "FrankerFaceZ",
             oldVariable: "emotesFfz",
-            getEmoteURL: (e) => `https://cdn.frankerfacez.com/emoticon/${e}/1`
+            getEmoteURL: (e) => `https://cdn.frankerfacez.com/emoticon/${e}/4`
         },
         BTTV: {
             url: `https://rauenzi.github.io/BetterDiscordApp/data/emotedata_bttv.json`,
             variable: "BTTV",
             oldVariable: "emotesBTTV",
-            getEmoteURL: (e) => `https://cdn.betterttv.net/emote/${e}/1x`
+            getEmoteURL: (e) => `https://cdn.betterttv.net/emote/${e}/3x`
         },
         BTTV2: {
             url: `https://rauenzi.github.io/BetterDiscordApp/data/emotedata_bttv2.json`,
             variable: "BTTV2",
             oldVariable: "emotesBTTV2",
-            getEmoteURL: (e) => `https://cdn.betterttv.net/emote/${e}/1x`
+            getEmoteURL: (e) => `https://cdn.betterttv.net/emote/${e}/3x`
         }
     };
 
